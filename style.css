@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+a {
+  color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+.navbar h1 {
+  font-weight: 900;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.botoes a {
+  margin-left: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.traço1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.traço1 h1 {
+  font-size: 115pt;
+  color: blue;
+}
+
+.traço1 img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 165px;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.traço1 a {
+  padding-right: 1.5rem;
+}
+
+.traço2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 350px;
+  padding: 2.3rem 0;
+  margin-left: 2rem;
+}
+
+.traço2 a {
+  display: block;
+}
+
+.traço2 .div2 {
+  max-width: 250px;
+}
+
+.traço2 .div2 button {
+  height: 40px;
+  width: 200px;
+  border: 0;
+  outline: 0;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.traço2 .div2 button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: all ease-in-out 0.1s;
+  font-weight: 600;
+} 
+hr {
+  border: none;
+  background-color: #d9d9d9;
+  height: 1px;
+}
